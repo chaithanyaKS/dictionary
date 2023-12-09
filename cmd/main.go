@@ -9,4 +9,8 @@ import (
 func main() {
 	trie := trie.New()
 	fmt.Println(trie)
+	trie.Add("test")
+	trie.Add("team")
+	trie.Add("train")
+	trie.Print()
 }
